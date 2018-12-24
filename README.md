@@ -10,7 +10,10 @@ Funabashi, Chiba, Japan.
 
 ### Description
 
-For about 25 years at domestic major SIer, he mainly engaged in system development of bank information system. After that, after working as a web application company, i am now responsible for overall application development including infrastructure using cloud with small SIer.And now, I am freelance software engineer.
+For about 20 years at domestic major System Integratoer, I mainly engaged in system development of financial information system at bank, insurance campany.
+After that, I became a manager at a small company, and we have done web application development using php etc. for less than a year.
+After that, I changed to another company and became an acting manager. Infrastructure operation for research and development using AWS cloud, application development, etc. were carried out for 6 years.
+And now, I am freelance software engineer.
 
 ### Summary
 
