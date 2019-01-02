@@ -30,10 +30,17 @@ And now, I am freelance software engineer.
 
 ### Socal
 
-Twitter: @kabukawa<br>
-Facebook: https://www.facebook.com/kabukawa
+### Socal
+
+* [Twitter](https://twitter.com/kabukawa)
+* [Facebook](https://www.facebook.com/kabukawa)
+* [Instagram](https://www.instagram.com/kabukawa/?hl=ja)
+
+* [Linkedin](https://www.linkedin.com/in/kunihisa-abukawa-78537591/)
+* [Eight](https://8card.net/p/39727434779)
+
 
 ### Blogs
 
-Medium: https://medium.com/@kabukawa<br>
-Hatena: https://kabukawa.hatenablog.jp/
+* [Hatena](https://kabukawa.hatenablog.jp/)
+* [Medium](https://medium.com/@kabukawa)
