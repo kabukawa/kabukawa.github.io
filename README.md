@@ -44,3 +44,4 @@ And now, I am freelance software engineer.
 
 * [Hatena](https://kabukawa.hatenablog.jp/)
 * [Medium](https://medium.com/@kabukawa)
+* [g.o.a.t](https://kabukawa.goat.me/)
