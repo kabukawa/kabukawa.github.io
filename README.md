@@ -30,12 +30,9 @@ And now, I am freelance software engineer.
 
 ### Socal
 
-### Socal
-
 * [Twitter](https://twitter.com/kabukawa)
 * [Facebook](https://www.facebook.com/kabukawa)
 * [Instagram](https://www.instagram.com/kabukawa/?hl=ja)
-
 * [Linkedin](https://www.linkedin.com/in/kunihisa-abukawa-78537591/)
 * [Eight](https://8card.net/p/39727434779)
 
