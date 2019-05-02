@@ -4,7 +4,7 @@
 
 ## Kunihisa Abukawa
 
-Freelance Software Engineer.<br>
+System Engineer. HAL Corp.<br>
 Funabashi, Chiba, Japan.
 
 
