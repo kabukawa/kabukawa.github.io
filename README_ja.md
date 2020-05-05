@@ -4,6 +4,8 @@
 
 ## プロフィール
 
+[English](README.md)
+
 ### Kunihisa Abukawa
 
 ![](img/profile.png)

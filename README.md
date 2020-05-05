@@ -4,6 +4,8 @@
 
 ## Profile
 
+[Japanese](README_ja.md)
+
 ### Kunihisa Abukawa
 
 ![](img/profile.png)
