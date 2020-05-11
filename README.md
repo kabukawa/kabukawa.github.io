@@ -4,7 +4,7 @@
 
 ## Profile
 
-[Japanese](README_ja.md)
+[日本語](README_ja.md)
 
 ### Kunihisa Abukawa
 
