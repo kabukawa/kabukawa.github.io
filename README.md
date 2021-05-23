@@ -10,15 +10,15 @@
 
 ![](img/profile.png)
 
-System Engineer. HAL Corp.<br>
+Engineer, Emerada Corporation<br>
 Funabashi, Chiba, Japan.
 
 
 ### Description
 
 I worked for about 20 years at a major Japanese system integrator, mainly in the development of financial information systems for megabanks, trust banks and non-life insurance companies. 
-After that, I worked for several companies as a playing manager, managing teams, web application/API development using php, etc., research and development using AWS cloud, and infrastructure operations such as application development for 8 years. 
-I am currently working as an engineer for a company that provides SES (System Engineering Service).
+After that, I worked for several companies as a playing manager, managing teams, web application/API development using php, etc., research and development using AWS cloud, and infrastructure operations such as application development for 9 years. 
+And now I'm working as an engineer at a company that provides its own services.
 ### Summary
 
 - Development of an annuity management support system for a trust bank
