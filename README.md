@@ -10,7 +10,7 @@
 
 ![](img/profile.png)
 
-Engineer, Emerada Corporation<br>
+Engineer, Emerada Co., Ltd.<br>
 Funabashi, Chiba, Japan.
 
 
