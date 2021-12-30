@@ -46,4 +46,3 @@ Development scale of more than 150 people/month (leader of the subsystem develop
 
 * [Hatena](https://kabukawa.hatenablog.jp/)
 * [Medium](https://medium.com/@kabukawa)
-* [g.o.a.t](https://kabukawa.goat.me/)
