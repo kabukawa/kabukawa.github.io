@@ -3,3 +3,4 @@ redcarpet:
   extensions: ["no_intra_emphasis", "fenced_code_blocks", "autolink", "strikethrough", "superscript"]
 
 theme: minima
+google_analytics: G-6DB9TE8T6H
