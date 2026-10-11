@@ -3,7 +3,7 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>My resume | Kunihisa Abukawa</title>
+  <title>Resume | Kunihisa Abukawa</title>
   <style>
     body {
       margin: 0;
@@ -14,79 +14,45 @@
     main {
       box-sizing: border-box;
       width: 100%;
-      max-width: 34rem;
-      margin: 12vh auto 4rem;
+      max-width: 36rem;
+      margin: 10vh auto 4rem;
       padding: 0 1.5rem;
     }
-    h1 {
-      margin: 0;
-      font-size: 1.35rem;
-      font-weight: 600;
-    }
-    .role {
-      margin: 0.4rem 0 0;
-      letter-spacing: 0.04em;
-      line-height: 1.7;
-    }
-    .lang {
-      margin: 1.1rem 0 1.6rem;
-    }
-    .lang a {
-      color: #0c2340;
-    }
+    h1 { margin: 0; font-size: 1.35rem; font-weight: 600; }
+    .role { margin: 0.35rem 0 0; letter-spacing: 0.04em; line-height: 1.7; }
+    .lang { margin: 1rem 0 1.4rem; }
+    .lang a { color: #0c2340; }
     .portrait {
-      width: 8rem;
-      height: auto;
+      width: 8.5rem;
+      height: 8.5rem;
+      object-fit: cover;
+      object-position: 28% 72%;
       display: block;
-      margin: 0 0 0.4rem;
+      margin: 0 0 0.2rem;
     }
     h2 {
-      margin: 2.4rem 0 0;
+      margin: 2.3rem 0 0;
       font-size: 0.95rem;
       font-weight: 600;
       letter-spacing: 0.06em;
     }
-    p {
-      line-height: 1.75;
-    }
-    .lead {
-      margin: 0.9rem 0 0;
-    }
-    ul {
-      list-style: none;
-      margin: 0.8rem 0 0;
-      padding: 0;
-    }
+    p { line-height: 1.8; margin: 0.75rem 0 0; }
+    .job { margin-top: 1.5rem; padding-top: 1rem; border-top: 1px solid #d6d0c6; }
+    .job h3 { margin: 0; font-size: 1.02rem; font-weight: 600; }
+    .meta { margin: 0.25rem 0 0; color: #57534e; font-size: 0.9rem; }
+    ul { list-style: none; margin: 0.7rem 0 0; padding: 0; }
     li {
       border-top: 1px solid #d6d0c6;
-      padding: 0.85rem 0.1rem;
-      line-height: 1.65;
+      padding: 0.75rem 0.1rem;
+      line-height: 1.7;
     }
-    li:last-child {
-      border-bottom: 1px solid #d6d0c6;
-    }
-    .links li {
-      padding: 0;
-    }
-    .links a {
-      display: block;
-      padding: 0.95rem 0.1rem;
-      color: #0c2340;
-      text-decoration: none;
-    }
-    .links a:hover {
-      background: #ebe6dc;
-    }
-    small {
-      display: block;
-      margin-top: 0.25rem;
-      color: #57534e;
-      font-size: 0.85rem;
-    }
+    li:last-child { border-bottom: 1px solid #d6d0c6; }
+    .skills li { padding: 0.7rem 0.1rem; }
+    .skills b { font-weight: 600; }
+    a { color: #0c2340; }
+    small { display: block; margin-top: 0.25rem; color: #57534e; font-size: 0.85rem; }
     @media (max-width: 640px) {
-      main {
-        margin-top: 3.5rem;
-      }
+      main { margin-top: 3.2rem; }
     }
   </style>
   <script>
@@ -101,38 +67,63 @@
 <body>
   <main>
     <h1>Kunihisa Abukawa</h1>
-    <p class="role">Engineer, Emerada Co., Ltd.<br>Funabashi, Chiba, Japan.</p>
+    <p class="role">虻川 国久<br>Funabashi, Chiba, Japan<br><a href="mailto:kabukawa@gmail.com">kabukawa@gmail.com</a></p>
     <p class="lang"><a href="/README_ja">日本語</a></p>
     <img class="portrait" src="img/profile.png" alt="Kunihisa Abukawa">
 
-    <h2>Description</h2>
-    <p class="lead">I worked for about 20 years at a major Japanese system integrator, mainly in the development of financial information systems for megabanks, trust banks and non-life insurance companies. After that, I worked for several companies as a playing manager, managing teams, web application/API development using php, etc., research and development using AWS cloud, and infrastructure operations such as application development for 9 years. And now I'm working as an engineer at a company that provides its own services.</p>
+    <h2>Profile</h2>
+    <p>I spent about 20 years developing financial information systems, then worked on cloud environments for research and on internal IT at a startup. I was based at client sites and handled development together with team problems, IT governance, and information security.</p>
+    <p>Most of that work was development, tuning, and troubleshooting on UNIX (Solaris, CentOS, Red Hat Linux) and Windows. I have also run and improved infrastructure on AWS and Azure, prepared environments for financial-engineering research, and built systems that collect and preprocess data. On an automaker's telemetry platform, I was the systems integrator's project manager, coordinated the other vendors, and brought the service into production on schedule.</p>
+    <p>At Emerada I look after both the service infrastructure and internal IT. I write down a system when no handover exists, and I treat shared information as part of working remotely.</p>
 
-    <h2>Summary</h2>
+    <h2>Experience</h2>
+
+    <section class="job">
+      <h3>Emerada Co., Ltd.</h3>
+      <p class="meta">Manager, June 2021 – present</p>
+      <p>I lead the build, maintenance, and operation of Emerada CashManager, a cash-management service for businesses. For Kyell, a portal for shinkin banks, I lead the infrastructure design, build, and operation of the cash-management function. I also plan, introduce, maintain, and operate internal networks, PCs, and SaaS, and I set the information-security plan and policy, run them, and explain them to employees.</p>
+      <p>When I joined, no engineers remained and there was no handover. I documented the infrastructure, including diagrams and sequence charts, in more than 200 documents, and grew the team from one person to three. I reduced operating work by automating it and simplifying procedures, and I run mob programming and study sessions so members can handle problems themselves. Looking at infrastructure constraints and functional requirements together has cut down sudden requests and made the work plannable.</p>
+    </section>
+
+    <section class="job">
+      <h3>HAL Co., Ltd.</h3>
+      <p class="meta">System Engineer, System Development Department, April 2019 – May 2021</p>
+      <p>I led development and operation of an inbound restaurant-information site. On an automaker's telemetry platform I developed the system, built and ran CI/CD, and acted as the systems integrator's project manager toward the client. I supported less experienced members for a year, and brought post-launch operations back to a point where the integrator could lead them.</p>
+    </section>
+
+    <section class="job">
+      <h3>Value System Co., Ltd.</h3>
+      <p class="meta">Acting Manager, Tokyo Office, August 2012 – September 2018</p>
+      <p>I managed and supported our developers across several locations. Under a systems integrator, I led a team that built cloud environments and systems for financial-engineering research. AWS was still rarely used in finance, and we finished a short application project on time. I was then asked to prepare, with the client's staff, an AWS environment for research on news text and stock prices. Each week I held a study session on concepts, the services in use, cost, and the AWS CLI, until the client's employees as well as our members could answer cloud requests.</p>
+      <p>On another assignment I led the team that adapted a highway information service for mobile. The schedule was short, and IE6 support was added one week before release. We still shipped on the date.</p>
+    </section>
+
+    <section class="job">
+      <h3>Systena Corporation</h3>
+      <p class="meta">Developer and team leader, April 1992 – July 2011</p>
+      <p>I worked for four years, including later changes, on a trust bank's pension-investment support system. In a systems-integration project for a bank merger, the application I was responsible for was more than 150 person-months. In a non-life insurer's merger, the application I was responsible for was more than 100 person-months. I also developed under manufacturer and systems-integrator methods, including SDEM.</p>
+      <p>Of the two phases in the bank integration, one was recognized by the manufacturer: we built a higher-quality system with less effort than planned. I took questions from the client's staff and advised them on middleware and technical problems. After the trust-bank work ended I was asked back by name, and a manufacturer's systems engineer later asked me to support Linux middleware.</p>
+    </section>
+
+    <h2>Skills</h2>
+    <ul class="skills">
+      <li><b>OS</b> Solaris, CentOS, Red Hat Linux, Windows</li>
+      <li><b>Web</b> Apache, Nginx, WAS, Tomcat</li>
+      <li><b>Databases</b> MySQL, DB2, Oracle, SQL Server, MongoDB (Azure Cosmos DB)</li>
+      <li><b>Languages</b> C/C++, VB/VBA, Java, Ruby, Python, R, Delphi, C#, PHP, shell script</li>
+      <li><b>Frameworks</b> CORBA, Ruby on Rails</li>
+      <li><b>Other</b> Jenkins, Docker, AWS CLI, Azure CLI, Azure DevOps, Kubernetes</li>
+    </ul>
+
+    <h2>Certifications</h2>
     <ul>
-      <li>Development of an annuity management support system for a trust bank<small>4 years, including the rebuild.</small></li>
-      <li>System Integration Project through Megabank Integration<small>Development scale of more than 150 people/month (leader of the subsystem development team in charge)</small></li>
-      <li>System integration project through the integration of a non-life insurance company<small>Responsible for applications with a development scale of over 100 man-months</small></li>
-      <li>Development based on manufacturer and SIer Development Methodology (SDEM), etc.</li>
-      <li>Website construction (HTML / CSS, Javascript, PHP)</li>
-      <li>Development of tools for financial engineering research, building a cloud and research environment (6 years)</li>
-      <li>Project Manager for the development of a major automotive telemetry system (API)</li>
-      <li>20 years of experience as a leader or sub-leader in your company</li>
+      <li>Applied Information Technology Engineer (2015)</li>
+      <li>Red Hat Certified Engineer (RHCE)</li>
     </ul>
 
-    <h2>Social</h2>
-    <ul class="links">
-      <li><a href="https://twitter.com/kabukawa">Twitter</a></li>
-      <li><a href="https://www.facebook.com/kabukawa">Facebook</a></li>
-      <li><a href="https://www.instagram.com/kabukawa/?hl=ja">Instagram</a></li>
-      <li><a href="https://www.linkedin.com/in/kunihisa-abukawa-78537591/">Linkedin</a></li>
-      <li><a href="https://8card.net/p/39727434779">Eight</a></li>
-    </ul>
-
-    <h2>Blogs</h2>
-    <ul class="links">
-      <li><a href="https://kabukawa.hatenablog.jp/">Hatena</a></li>
-      <li><a href="https://medium.com/@kabukawa">Medium</a></li>
+    <h2>Education</h2>
+    <ul>
+      <li>Daito Bunka University, Faculty of International Relations, Department of International Culture<small>Bachelor's degree, March 1992</small></li>
     </ul>
   </main>
 </body>

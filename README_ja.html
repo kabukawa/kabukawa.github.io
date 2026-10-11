@@ -3,7 +3,7 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>職務経歴書 | Kunihisa Abukawa</title>
+  <title>職務経歴書 | 虻川 国久</title>
   <style>
     body {
       margin: 0;
@@ -14,79 +14,45 @@
     main {
       box-sizing: border-box;
       width: 100%;
-      max-width: 34rem;
-      margin: 12vh auto 4rem;
+      max-width: 36rem;
+      margin: 10vh auto 4rem;
       padding: 0 1.5rem;
     }
-    h1 {
-      margin: 0;
-      font-size: 1.35rem;
-      font-weight: 600;
-    }
-    .role {
-      margin: 0.4rem 0 0;
-      letter-spacing: 0.04em;
-      line-height: 1.7;
-    }
-    .lang {
-      margin: 1.1rem 0 1.6rem;
-    }
-    .lang a {
-      color: #0c2340;
-    }
+    h1 { margin: 0; font-size: 1.35rem; font-weight: 600; }
+    .role { margin: 0.35rem 0 0; letter-spacing: 0.04em; line-height: 1.7; }
+    .lang { margin: 1rem 0 1.4rem; }
+    .lang a { color: #0c2340; }
     .portrait {
-      width: 8rem;
-      height: auto;
+      width: 8.5rem;
+      height: 8.5rem;
+      object-fit: cover;
+      object-position: 28% 72%;
       display: block;
-      margin: 0 0 0.4rem;
+      margin: 0 0 0.2rem;
     }
     h2 {
-      margin: 2.4rem 0 0;
+      margin: 2.3rem 0 0;
       font-size: 0.95rem;
       font-weight: 600;
       letter-spacing: 0.06em;
     }
-    p {
-      line-height: 1.75;
-    }
-    .lead {
-      margin: 0.9rem 0 0;
-    }
-    ul {
-      list-style: none;
-      margin: 0.8rem 0 0;
-      padding: 0;
-    }
+    p { line-height: 1.8; margin: 0.75rem 0 0; }
+    .job { margin-top: 1.5rem; padding-top: 1rem; border-top: 1px solid #d6d0c6; }
+    .job h3 { margin: 0; font-size: 1.02rem; font-weight: 600; }
+    .meta { margin: 0.25rem 0 0; color: #57534e; font-size: 0.9rem; }
+    ul { list-style: none; margin: 0.7rem 0 0; padding: 0; }
     li {
       border-top: 1px solid #d6d0c6;
-      padding: 0.85rem 0.1rem;
-      line-height: 1.65;
+      padding: 0.75rem 0.1rem;
+      line-height: 1.7;
     }
-    li:last-child {
-      border-bottom: 1px solid #d6d0c6;
-    }
-    .links li {
-      padding: 0;
-    }
-    .links a {
-      display: block;
-      padding: 0.95rem 0.1rem;
-      color: #0c2340;
-      text-decoration: none;
-    }
-    .links a:hover {
-      background: #ebe6dc;
-    }
-    small {
-      display: block;
-      margin-top: 0.25rem;
-      color: #57534e;
-      font-size: 0.85rem;
-    }
+    li:last-child { border-bottom: 1px solid #d6d0c6; }
+    .skills li { padding: 0.7rem 0.1rem; }
+    .skills b { font-weight: 600; }
+    a { color: #0c2340; }
+    small { display: block; margin-top: 0.25rem; color: #57534e; font-size: 0.85rem; }
     @media (max-width: 640px) {
-      main {
-        margin-top: 3.5rem;
-      }
+      main { margin-top: 3.2rem; }
     }
   </style>
   <script>
@@ -100,39 +66,64 @@
 </head>
 <body>
   <main>
-    <h1>Kunihisa Abukawa</h1>
-    <p class="role">エメラダ株式会社 エンジニア</p>
+    <h1>虻川 国久</h1>
+    <p class="role">Kunihisa Abukawa<br>千葉県船橋市<br><a href="mailto:kabukawa@gmail.com">kabukawa@gmail.com</a></p>
     <p class="lang"><a href="/">English</a></p>
-    <img class="portrait" src="img/profile.png" alt="Kunihisa Abukawa">
+    <img class="portrait" src="img/profile.png" alt="虻川 国久">
 
-    <h2>職務概略</h2>
-    <p class="lead">私は国内大手システムインテグレーターで約20年間、主にメガバンク、信託銀行、損害保険会社で金融情報システムのシステム開発に従事しました。その後、いくつかの会社でプレイングマネージャーとして、チームの管理のほか、phpなどを使ったWebアプリケーション/API開発、AWSクラウドを利用した研究開発、アプリケーション開発などのインフラ運用、を9年間行いました。そして現在は自社サービスを提供する会社でエンジニアとして活動しています。</p>
+    <h2>職務概要</h2>
+    <p>金融情報システムの開発に約20年携わったあと、クラウド上の研究環境と、スタートアップの社内ITを担当してきました。顧客企業に常駐し、開発に加えて、チームの課題、ITガバナンス、情報セキュリティまで扱っています。</p>
+    <p>中心は、UNIX系（Solaris、CentOS、Red Hat Linux）と Windows の開発、チューニング、障害対応です。AWS と Azure での基盤の運用と改善、金融工学の研究に使う環境の整備、データの収集と前処理も行いました。自動車会社のテレメトリー基盤では、SI のプロジェクトマネージャとして他のベンダと調整し、予定どおりサービスを開始しています。</p>
+    <p>エメラダでは、インフラと社内ITをまとめて見ています。引き継ぎの資料がない状態から構成を文書に残し、フルリモートでも情報を共有できる状態にすることを大事にしています。</p>
 
     <h2>職務経歴</h2>
+
+    <section class="job">
+      <h3>エメラダ株式会社</h3>
+      <p class="meta">マネージャー　2021年6月 – 現在</p>
+      <p>企業向けの資金繰り管理サービス Emerada CashManager の基盤を構築し、保守と運用のリーダーを務めています。信用金庫向けポータル Kyell では、資金繰り管理機能のインフラ設計、構築、運用を担当しています。社内のネットワーク、PC、SaaS の企画から導入、保守、運用までと、情報セキュリティの計画、ポリシー、運用、社員への周知も担当しています。</p>
+      <p>入社時点ではエンジニアがおらず、引き継ぎ資料もありませんでした。インフラ構成を文書にし、構成図とシーケンス図を含む 200 以上の文書を残して、1名だった体制を 3名に広げました。運用の自動化と手順の簡素化を進め、モブプログラミングと勉強会で、メンバーが自分で課題を扱えるようにしています。インフラの条件と機能の要件をセットで見ることで、急な依頼を減らし、計画して対応できるようにしました。</p>
+    </section>
+
+    <section class="job">
+      <h3>株式会社HAL</h3>
+      <p class="meta">システム開発部　システムエンジニア　2019年4月 – 2021年5月</p>
+      <p>インバウンド向け飲食店情報サイトの開発と運用のリーダーを務めました。自動車会社のテレメトリー基盤では、システムの開発と CI/CD の構築、運用を担当し、SI のプロジェクトマネージャとして顧客との窓口になりました。経験の浅いメンバーを一年かけて支え、サービス開始後の運用のとりまとめを、SI 側が担えるところまで戻しました。</p>
+    </section>
+
+    <section class="job">
+      <h3>株式会社ヴァリューシステム</h3>
+      <p class="meta">東京支店　アクティングマネージャ　2012年8月 – 2018年9月</p>
+      <p>複数拠点にいる自社の開発メンバーの管理とサポートを行いました。SI の下で、金融工学の研究に使うクラウド環境と、システムの開発チームを率いました。当時、金融の現場では AWS の採用例が少なかった中で、短期間のアプリケーション開発を期限内に終えています。その後、ニュースのテキストや株価を扱う研究環境を、顧客担当者と一緒に AWS 上へ整備しました。毎週、概念、利用しているサービス、コスト、AWS CLI を扱う勉強会を開き、顧客企業の社員も含めて、クラウドの依頼に応えられるようにしました。</p>
+      <p>別の案件では、高速道路の情報提供システムをモバイル対応にするチームのリーダーでした。期間は短く、リリースの1週間前に IE6 対応が追加されましたが、期日までに出しています。</p>
+    </section>
+
+    <section class="job">
+      <h3>株式会社システナ</h3>
+      <p class="meta">開発メンバー、チームリーダー　1992年4月 – 2011年7月</p>
+      <p>信託銀行の年金運用支援システムを、改修を含めて4年担当しました。銀行の統合に伴うシステム統合では、担当アプリケーションの開発規模が150人月を超えています。損害保険会社の統合では、担当アプリケーションが100人月を超えています。メーカーと SI の開発手法（SDEM）に沿った開発も行いました。</p>
+      <p>銀行統合の2つのフェーズのうち1つでは、メーカーの予定工数より少ない工数で、品質の高いシステムを作ったとして表彰を受けました。顧客担当者からの相談、ミドルウェアの助言、技術的な支援を担っていました。信託銀行の開発が終わったあとも、名指しで仕事を依頼されています。メーカーの SE からは、Linux 向けミドルウェアの技術支援も依頼されました。</p>
+    </section>
+
+    <h2>スキル</h2>
+    <ul class="skills">
+      <li><b>OS</b>　Solaris、CentOS、Red Hat Linux、Windows</li>
+      <li><b>Web</b>　Apache、Nginx、WAS、Tomcat</li>
+      <li><b>DB</b>　MySQL、DB2、Oracle、SQL Server、MongoDB（Azure Cosmos DB）</li>
+      <li><b>言語</b>　C/C++、VB/VBA、Java、Ruby、Python、R、Delphi、C#、PHP、Shell Script</li>
+      <li><b>フレームワーク</b>　CORBA、Ruby on Rails</li>
+      <li><b>その他</b>　Jenkins、Docker、AWS CLI、Azure CLI、Azure DevOps、Kubernetes</li>
+    </ul>
+
+    <h2>資格</h2>
     <ul>
-      <li>信託銀行の年金運用支援システムの開発<small>再構築を含めて4年間</small></li>
-      <li>メガバンク統合によるシステム統合プロジェクト<small>150人月以上の開発規模(担当サブシステム開発チームのリーダー)</small></li>
-      <li>損害保険会社の統合によるシステム統合プロジェクト<small>100人月以上の開発規模でアプリケーションを担当</small></li>
-      <li>メーカー、SIer開発手法（SDEM）などをベースにした開発</li>
-      <li>ウェブサイト構築（HTML / CSS、Javascript、PHP)</li>
-      <li>金融工学研究におけるツール開発、クラウド・研究環境の構築（6年)</li>
-      <li>大手自動車のテレメトリシステム(API)開発のプロジェクトマネージャ</li>
-      <li>自社のリーダーまたはサブリーダーとしての経験20年</li>
+      <li>応用情報処理技術者（2015年）</li>
+      <li>Red Hat 認定技術者（RHCE）</li>
     </ul>
 
-    <h2>ソーシャル</h2>
-    <ul class="links">
-      <li><a href="https://twitter.com/kabukawa">Twitter</a></li>
-      <li><a href="https://www.facebook.com/kabukawa">Facebook</a></li>
-      <li><a href="https://www.instagram.com/kabukawa/?hl=ja">Instagram</a></li>
-      <li><a href="https://www.linkedin.com/in/kunihisa-abukawa-78537591/">Linkedin</a></li>
-      <li><a href="https://8card.net/p/39727434779">Eight</a></li>
-    </ul>
-
-    <h2>ブログ</h2>
-    <ul class="links">
-      <li><a href="https://kabukawa.hatenablog.jp/">Hatena</a></li>
-      <li><a href="https://medium.com/@kabukawa">Medium</a></li>
+    <h2>学歴</h2>
+    <ul>
+      <li>大東文化大学 国際関係学部 国際文化科 学士<small>1992年3月卒業</small></li>
     </ul>
   </main>
 </body>
